@@ -1,2 +1,9 @@
 server:
   port: 8181
+
+spring:
+  redis:
+    port: 6379
+    host: localhost
+    ssl: false
+    password: redis123
